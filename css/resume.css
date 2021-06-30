@@ -17,6 +17,16 @@ body {
   min-height: 100vh;
 }
 
+.download {
+  position: absolute;
+  top: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #003147;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
 .container {
   position: relative;
   background-color: #fff;
@@ -248,7 +258,6 @@ body {
 
 @media (max-width: 1000px) {
   .container {
-    margin: 10px;
     grid-template-columns: repeat(1, 1fr);
     min-width: auto;
   }
